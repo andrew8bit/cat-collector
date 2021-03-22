@@ -9,4 +9,4 @@ class Cat(models.Model):
 
     def __str__(self):
         return self.name
-garfield = Cat('Garfield', 'Tabby', 'I have never heard of a tabby')
+garfield = Cat(name='Garfield', breed='Tabby', description='I have never heard of a tabby')
